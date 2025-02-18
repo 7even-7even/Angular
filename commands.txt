@@ -1,0 +1,152 @@
+Microsoft Windows [Version 10.0.19044.1288]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Admin\Desktop\Angular2C>npm --version 
+10.9.2
+
+C:\Users\Admin\Desktop\Angular2C>npm install -g @angular/cli@latest
+
+added 276 packages in 1m
+
+52 packages are looking for funding
+  run `npm fund` for details
+
+C:\Users\Admin\Desktop\Angular2C>npm fund
+Angular2C
+
+
+C:\Users\Admin\Desktop\Angular2C>npm --version
+10.9.2
+
+C:\Users\Admin\Desktop\Angular2C>ng new TIB37
+
+Would you like to share pseudonymous usage data about this project with the Angular Team
+at Google under Google's Privacy Policy at https://policies.google.com/privacy. For more
+details and how to change this setting, see https://angular.dev/cli/analytics.
+
+   Yes
+
+Thank you for sharing pseudonymous usage data. Should you change your mind, the following
+command will disable this feature entirely:
+
+    ng analytics disable --global
+
+Global setting: enabled
+Local setting: No local workspace configuration file.
+Effective status: enabled
+✔ Which stylesheet format would you like to use? CSS             [ 
+https://developer.mozilla.org/docs/Web/CSS                     ]
+✔ Do you want to enable Server-Side Rendering (SSR) and Static Site Generation (SSG/Prerendering)? Yes    
+✔ Would you like to use the Server Routing and App Engine APIs (Developer Preview) for this server        
+application? Yes
+CREATE TIB37/angular.json (2842 bytes)
+CREATE TIB37/package.json (1260 bytes)
+CREATE TIB37/README.md (1527 bytes)
+CREATE TIB37/tsconfig.json (942 bytes)
+CREATE TIB37/.editorconfig (331 bytes)
+CREATE TIB37/.gitignore (629 bytes)
+CREATE TIB37/tsconfig.app.json (508 bytes)
+CREATE TIB37/tsconfig.spec.json (449 bytes)
+CREATE TIB37/.vscode/extensions.json (134 bytes)
+CREATE TIB37/.vscode/launch.json (490 bytes)
+CREATE TIB37/.vscode/tasks.json (980 bytes)
+CREATE TIB37/src/main.ts (256 bytes)
+CREATE TIB37/src/index.html (304 bytes)
+CREATE TIB37/src/styles.css (81 bytes)
+CREATE TIB37/src/main.server.ts (271 bytes)
+CREATE TIB37/src/server.ts (1702 bytes)
+CREATE TIB37/src/app/app.component.html (20239 bytes)
+CREATE TIB37/src/app/app.component.spec.ts (942 bytes)
+CREATE TIB37/src/app/app.component.ts (293 bytes)
+CREATE TIB37/src/app/app.component.css (0 bytes)
+CREATE TIB37/src/app/app.config.ts (447 bytes)
+CREATE TIB37/src/app/app.routes.ts (80 bytes)
+CREATE TIB37/src/app/app.config.server.ts (509 bytes)
+CREATE TIB37/src/app/app.routes.server.ts (174 bytes)
+CREATE TIB37/public/favicon.ico (15086 bytes)
+✔ Packages installed successfully.
+'git' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Admin\Desktop\Angular2C>cd TIB37
+
+C:\Users\Admin\Desktop\Angular2C\TIB37>ng serve 
+
+Would you like to share pseudonymous usage data about this project with the Angular Team
+at Google under Google's Privacy Policy at https://policies.google.com/privacy. For more
+details and how to change this setting, see https://angular.dev/cli/analytics.
+
+   Yes
+
+Thank you for sharing pseudonymous usage data. Should you change your mind, the following
+command will disable this feature entirely:
+
+    ng analytics disable
+
+Global setting: enabled
+Local setting: enabled
+Effective status: enabled
+Component HMR has been enabled.
+If you encounter application reload issues, you can manually reload the page to bypass HMR and/or disable this feature with the `--no-hmr` command line option.
+Please consider reporting any issues you encounter here: https://github.com/angular/angular-cli/issues
+
+Application bundle generation failed. [14.417 seconds]
+
+▲ [WARNING] TS-998113: All imports are unused [plugin angular-compiler]
+
+    src/app/app.component.ts:6:2:
+      6 │   imports: [RouterOutlet],
+        ╵   ~~~~~~~
+
+
+X [ERROR] NG1: Property 'Title' does not exist on type 'AppComponent'. Did you mean 'title'? [plugin angular-compiler]
+
+    src/app/app.component.html:1:6:
+      1 │ <h1>{{Title}}</h1>
+        ╵       ~~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:7:15:
+      7 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+Watch mode enabled. Watching for file changes...
+
+C:\Users\Admin\Desktop\Angular2C\TIB37>cd TIB37
+The system cannot find the path specified.
+
+C:\Users\Admin\Desktop\Angular2C\TIB37>ng serve       
+Component HMR has been enabled.
+If you encounter application reload issues, you can manually reload the page to bypass HMR and/or disable this feature with the `--no-hmr` command line option.
+Please consider reporting any issues you encounter here: https://github.com/angular/angular-cli/issues
+
+Browser bundles
+Initial chunk files  | Names            |  Raw size
+polyfills.js         | polyfills        |  90.20 kB |
+main.js              | main             |   6.20 kB |
+styles.css           | styles           |  95 bytes |
+
+                     | Initial total    |  96.49 kB
+
+
+Server bundles
+Initial chunk files  | Names            |  Raw size
+polyfills.server.mjs | polyfills.server | 572.91 kB |
+main.server.mjs      | main.server      |   7.52 kB |
+server.mjs           | server           |   1.86 kB |
+
+Application bundle generation complete. [9.557 seconds]
+
+▲ [WARNING] TS-998113: All imports are unused [plugin angular-compiler]
+
+    src/app/app.component.ts:6:2:
+      6 │   imports: [RouterOutlet],
+        ╵   ~~~~~~~
+
+
+Watch mode enabled. Watching for file changes...
+NOTE: Raw file sizes do not reflect development server per-request transformations.
+  ➜  Local:   http://localhost:4200/
+  ➜  press h + enter to show help
