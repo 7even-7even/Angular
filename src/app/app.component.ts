@@ -22,4 +22,3 @@ export class AppComponent {
     this.displaycontact = contact;
   }
 }
-

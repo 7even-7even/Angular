@@ -1,88 +1,79 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-  
-  .container {
-    background-color: wheat;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    width: 400px;
-    text-align: center;
-  }
-  
-  h1 {
-    color: #333;
-    font-size: 24px;
-    margin-bottom: 15px;
-  }
-  
-  input[type="text"],
-  input[type="email"],
-  input[type="number"] {
-    width: 50%;
-    padding: 10px;
-    margin: 8px 0;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 16px;
-  }
-  
-  input[type="text"]:focus,
-  input[type="email"]:focus,
-  input[type="number"]:focus {
-    border-color: #007BFF;
-    outline: none;
-  }
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #c899fa, #93bafd);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
 
-.Data {
-    text-align: center;
-    background-color: #f9f9f9;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    max-width: 500px;  
-    margin-top: 20px;
-    text-align: left;
-  }
-  
-  .Data h1 {
-    color: #333;
-    font-size: 24px;
-    margin-bottom: 15px;
-    font-weight: 600;
-  }
-  
-  .Data p {
-    color: #555;
-    font-size: 18px;
-    margin: 8px 0;
-    font-weight: 400;
-  }  
-  
-  button {
-    padding: 10px 20px;
-    background-color: #007BFF;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  button:hover {
-    background-color: #000000;
-  }
-  
+.container {
+  background: wheat;
+  padding: 25px;
+  border-radius: 10px;
+  border: 2px solid #000000;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  width: 400px;
+  text-align: center;
+}
 
+h1 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
 
-  
+input {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #000000;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+input:focus {
+  border-color: #2575fc;
+  outline: none;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #2575fc;
+  color: white;
+  border: 2px solid #000000;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #6a11cb;
+}
+
+.data {
+  background: wheat;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  border: 2px solid #000000;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.data h1 {
+  color: #333;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.data p {
+  color: #555;
+  font-size: 16px;
+  margin: 5px 0;
+}

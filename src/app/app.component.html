@@ -1,15 +1,23 @@
-<h1 style="text-align: center;">{{title}}</h1>
+<body>
+  <div class="container">
 
-<input type="text" #name placeholder="Enter Your Name" name="name"><br>
-<input type="text" #address placeholder="Enter Your Address" name="address"><br>
-<input type="email" #email placeholder="Enter Your Email" name="email"><br>
-<input type="number" #contact placeholder="Enter Your Contact" name="contact"><br>
+    <h1 style="text-align: center;">{{title}}</h1>
+    
+    <input type="text" #name placeholder="Enter Your Name" name="name"><br>
+    <input type="text" #address placeholder="Enter Your Address" name="address"><br>
+    <input type="email" #email placeholder="Enter Your Email" name="email"><br>
+    <input type="number" #contact placeholder="Enter Your Contact" name="contact"><br>
 
-<button (click)="getvalue(name.value, address.value, contact.value, email.value)">Register</button>
-<div class="Data">
-  <h1>Your Details Are:</h1>
-    <p>Name: {{displayname}}</p>
-    <p>Address: {{displayaddress}}</p>
-    <p>Email: {{displayemail}}</p>
-    <p>Contact: {{displaycontact}}</p>
-</div>
+    <button (click)="getvalue(name.value, address.value, contact.value, email.value)">Register</button>
+
+  </div>
+
+  <div class="data">
+    <h1>Your Details Are:</h1>
+      <p>Name: {{displayname}}</p>
+      <p>Address: {{displayaddress}}</p>
+      <p>Email: {{displayemail}}</p>
+      <p>Contact: {{displaycontact}}</p>
+  </div>
+  
+</body>
